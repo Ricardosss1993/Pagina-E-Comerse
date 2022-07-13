@@ -1,0 +1,26 @@
+.banner {
+    background-image: url(../img/Banner_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 13rem;
+    color: rgb(255, 255, 255);
+    padding-left: 1rem;
+    position: relative;
+}
+
+.banner__division {
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: .7rem;
+}
+
+.banner__division__titulo{
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+.banner__division__descripcion{
+    padding-bottom: .5rem;
+    font-size: 1rem;
+  }
