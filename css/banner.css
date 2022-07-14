@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
     height: 13rem;
-    color: rgb(255, 255, 255);
+    color: var(--blanco);
     /* padding-left: 6.5rem; */
     position: relative;
 }

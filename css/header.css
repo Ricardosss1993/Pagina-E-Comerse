@@ -24,7 +24,7 @@
     .encabezado__inicial__div__barra-busqueda{
       margin-left: 2rem;
       display: block;
-      background-color: rgb(245, 245, 245);
+      background-color: var(--blanco);
       border: none;
       border-radius: 20px;
       width: 18rem;
