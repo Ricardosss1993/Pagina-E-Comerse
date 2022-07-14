@@ -63,8 +63,10 @@
     }
   }
 
-@media (min-width: 980px){
+@media (min-width: 968px){
     .producto-productos{
         background-color: tomato;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

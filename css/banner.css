@@ -5,7 +5,7 @@
     background-position: center;
     height: 13rem;
     color: rgb(255, 255, 255);
-    padding-left: 1rem;
+    /* padding-left: 6.5rem; */
     position: relative;
 }
 
@@ -17,10 +17,22 @@
 
 .banner__division__titulo{
     padding-bottom: .5rem;
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: 500;
   }
 .banner__division__descripcion{
     padding-bottom: .5rem;
     font-size: 1rem;
+  }
+
+  @media (min-width: 968px){
+    .banner__division{
+      
+    }
+  }
+
+  @media (min-width: 768px){
+    .banner__division{
+      margin-left: 3rem;
+    }
   }
