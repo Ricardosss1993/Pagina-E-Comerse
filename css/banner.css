@@ -25,11 +25,7 @@
     font-size: 1rem;
   }
 
-  @media (min-width: 968px){
-    .banner__division{
-      
-    }
-  }
+  
 
   @media (min-width: 768px){
     .banner__division{
