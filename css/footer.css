@@ -82,6 +82,10 @@
     .footer-nav{
       align-self: flex-start;
     }
+
+    .footer-nav p{
+        color: var(--azul);
+    }
     .form-container{
       width: 50%;
     }
