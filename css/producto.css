@@ -1,0 +1,44 @@
+.producto{
+    background-color: #e5e5e5;
+}
+.producto__taza{
+    display: flex;
+    flex-direction: column;
+}
+
+.taza__img{
+    width: auto;
+}
+.taza__titulo{
+    margin-top: 20px;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.taza__precio{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.taza__descripcion{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+@media (min-width: 768px){
+    .producto__taza{
+        flex-direction: row;
+    }
+
+    .producto__info{
+        align-items: center;
+    }
+
+    .taza__img{
+        width: 300px;
+        margin-left: 40px;
+    }
+}
