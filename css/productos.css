@@ -40,13 +40,7 @@
     font-weight: 700;
   }
 
-  .baby-yoda{
-    display: none;
-  }
-
-  .kilo-ren{
-    display: none;
-  }
+  
 
   
   
@@ -57,9 +51,6 @@
       max-width: 900px;
     }
 
-    .baby-yoda{
-        display: block;
-    }
   }
 
 @media (min-width: 968px){

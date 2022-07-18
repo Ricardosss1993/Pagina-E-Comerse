@@ -15,6 +15,10 @@
   .login-form input::placeholder{
     color: #A2A2A2;
   }
+
+  .login-form button a{
+    color: white;
+  }
   
   @media (min-width: 768px){
     .login-form{
